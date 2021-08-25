@@ -1,0 +1,20 @@
+{
+    "name": "Ordena tus deberes",
+    "short_name": "Mis Deberes",
+    "description": "Bienvenido a mi aplicacion PWA",
+    "background_color": "#2B2B2B",
+    "theme_color": "#F0DB4F",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./index.html?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+      {
+        "src": "./img/tareas.svg",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose":"any"
+      }
+    ]
+  }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/solar/bootstrap.min.css" integrity="sha384-NCwXci5f5ZqlDw+m7FwZSAwboa0svoPPylIW3Nf+GBDsyVum+yArYnaFLE9UDzLd" crossorigin="anonymous">
+
+    <title>Inicio</title>
+</head>
+<body>
+  
+
+
+<div class="container p-4">
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+
+                    <form id="task-form">
+    
+                        <div class="form-group">
+                        <input type="text" id="task-title" class="form-control" placeholder="task title" autofocus>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea name="" id="task-description" class="form-control" rows="3" placeholder="Descripción"></textarea>
+                    </div>
+
+                    <button class="btn btn-danger" id="btn-task-form">Guardar</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+<div class="col-md-6" id="tasks-container"></div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBH4G1P_5C1LH3AqF_9tmYdJEJbgSevmn4",
+    authDomain: "deberes-260b0.firebaseapp.com",
+    projectId: "deberes-260b0",
+    storageBucket: "deberes-260b0.appspot.com",
+    messagingSenderId: "32255849212",
+    appId: "1:32255849212:web:9b2c2790aa13e3ed1e1d79"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script src="js/index.js"></script>
+</body>
+</html>
